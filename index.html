@@ -1,0 +1,140 @@
+<!DOCTYPE html><!- comando para indicar que isso é um documento do tipo HTM5 ->
+<html lang="pt-br">
+
+    <!-o elemento head é aonde vão ficar os metadados ->    
+    <head>
+        <!- comando para que o decode utf-8 que o padrão brasileiro aceite acentos ->     
+        <meta charset="utf-8">
+
+        <!- Titulo da página que aparecerá na parte de cima da pagina ->
+        <title>Minha Pagina</title>
+
+        <!- elemento que linka o HTML a arquivos externos. no caso aqui está fazendo uma referencia ao arquivo css ->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <!- elemento que define o corpo do documento ->
+    <body>
+        <!- é um elemento de itens de navegação (links) ->
+        <nav>
+            <p>MINHA PÁGINA</p>
+            <!- elemento que permite a inserção de uma lista de itens -> 
+            <ul>
+                <!- A tag "a" seguida do parametro href é uma tag de iperlink que ser para ligar o menu a outros lugares do site ou outra paginas ->
+                <!- o sinal #SERVIÇOS indica que o link vai levar para a seção de serviços da pagaina ->
+                <li>
+                    <a href="#servicos">SERVIÇOS</a>
+                </li>
+                <li>
+                    <a href="#clientes">CLIENTES</a>
+                </li>
+                <li>
+                   <a href="#parceiros">PARCEIROS</a>
+                </li>
+                <li>
+                   <a href="#time">TIME</a>
+                </li>
+                <li>
+                   <a href="#contato">CONTATO</a>
+                </li>                
+            </ul>
+        </nav>
+        <!- a tag 'p' significa que é um paragrado ->    
+        <p><p>Minha primeira página</p>
+        <b><i>Bruno</i></b><i> Barcellos</i>
+
+        <!- elemento de cabeçalho ->
+        <header>
+            <!- h1 é um elemento do tipo tiutlo da página onde o h1 um é o maior titulo, h2 o intermediário e o h3 o menor título de todos ->
+            <h1>Minha Página</h1>
+            <p>Oferecemos os melhor sites e apps para sua empresa</p>
+        </header>
+        
+        <!- Elemento que define uma sessões de conteudo ->
+        <section id="servicos">
+            <h2>SERVIÇOS</h2>
+            <p>
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+                Oferecemos os melhores serviços
+            </p>
+            
+            <!- Elemento que cria uma divisão ->
+            <div>
+                <!- Elemento para adicionar uma imagem. quando acompanhado do parametro width ele delimita o tamanho da imagem ->
+                <img src="img/download.jpg" class="img_padrao">    
+            </div>
+            <div>
+                <img src="img/WhatsApp Image 2019-02-28 at 07.41.29.jpeg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>Nossos cliente ficaram muito satisfeitos</p>
+            <div>
+                <img src="img/gael.jpg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/IMG_20170318_010631.jpg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Veja aqui nosos parceiros</p>
+            <div>
+                <a href="https://www.globo.com/" target="_blank">
+                    <!- O paramentro class indica um que todas as imagens terão o mesmo padrão quando forem aplicados os styles dentro do css ->
+                    <img src="img/IMG_20181222_222005752.jpg" class="img_padrao">
+                </a>
+            </div>
+        </section>
+
+        <section id="time">
+            <h2>TIME</h2>
+            <p>Veja aqui nosso time de desenvolvedores</p>
+            <div>
+                <img src="img/time.jpg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato com a nossa equipe</p>
+            <div>
+                <img src="img/email.jpg" class="logo">
+                <p><a href="mailto:12345">acontato@empresa.com</a></p>
+            </div>
+        </section>
+
+        <!- elemento que define o rodapé ->
+        <footer>
+            <p>Desenvolvido por Bruno Barcellos</p>
+        </footer>
+    </body> 
+</html>
